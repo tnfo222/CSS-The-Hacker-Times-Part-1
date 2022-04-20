@@ -3,13 +3,18 @@
 header h1{
    font-family: 'Abril Fatface';
    text-align:center;
+   font-size:2.5em;
+   margin:0;
 }
 
 .newspaper-container{
    width: 700px;
+   margin:3em auto;
    border-radius:0%;
-   box-shadow:10%, #ddd;
+   box-shadow:1px 1px 5px #ddd;
    padding:1em;
+   box-sizing: border-box;
+   background:white;
 }
 
 nav ul{
@@ -37,6 +42,33 @@ main h2{
 }
 
 p{
+   font-size:0.7em;
+   text-align:justify;
+   padding:0 10px;
+}
+
+body{
+   background:#eee;
    font-family:'Source Sans Pro';
 }
 
+.more-articles{
+   border-top: 1px solid #eee;
+   margin-top:1.5em;
+   text-align:center;
+}
+
+.more-articles section{
+   display: inline-block;
+   width:44%;
+   margin:0 1em;
+}
+
+.more-articles img{
+   width: 100%;
+}
+
+.more-articles h4{
+   font-family:'Roboto Slab';
+   text-align:left;
+}
